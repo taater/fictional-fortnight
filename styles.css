@@ -1,0 +1,37 @@
+.blinking{
+  animation:blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText{
+  0%  {  color: #000;   }
+  49% {  color: #010;   }
+  60% {  color: purple; }
+  99% {  color: blue;   }
+  100%{  color: #090;   }
+}
+
+img {
+  margin: 2em 0;
+}
+
+#cone {
+  width: 180px;
+  float: right;
+}
+@keyframes blinkingH1{
+  0%  {  color: darkred;   }
+  33% {  color: red;   }
+  66% {  color: darkred; }
+  99% {  color: red;   }
+  100%{  color: black;   }
+}
+
+h1{
+   animation:blinkingH1 1.2s infinite;
+   text-align: center;
+}
+
+body{
+background-color: lightgoldenrodyellow;
+
+}
