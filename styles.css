@@ -12,11 +12,12 @@
 
 img {
   margin: 2em 0;
+  float: center;
 }
 
 #cone {
   width: 180px;
-  float: right;
+  float: center;
 }
 @keyframes blinkingH1{
   0%  {  color: darkred;   }
